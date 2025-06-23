@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    span{
+        font-size: x-large;   
+    }
+    input{
+        font-size: large;
+    }
+    button{
+
+        font-size: medium;
+    }
+
+    div{
+        text-align: center;
+        height: 500px;
+        background-color: rgb(125, 184, 184);
+    }
+    .btn{
+        color: rgb(18, 18, 177);
+        background-color: bisque;
+    }
+</style>
+<script>
+    window.onload=function(){
+    document.getElementById("login").onclick=function(){
+            const acc=document.getElementById("acc").value;
+            console.log(acc);
+            console.log("login");
+
+    };
+
+    }
+    function btn(){
+        alert("yyyyyy");
+    };
+
+
+</script>
+<body>
+    <div>
+    <span>登入</span><br>
+    帳號:<input type="text" id="acc"> <br><br>
+    密碼:<input type="text"> <br>
+
+    <button id="login" >登入</button>
+    </div><br><br>
+    <button class="btn" onclick="btn()">btnnn</button>
+
+</body>
+</html>
